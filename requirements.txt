@@ -1,4 +1,3 @@
--i http://pypi.doubanio.com/simple/
+#-i http://pypi.doubanio.com/simple/
 Django~=1.11
 requests
--e .
