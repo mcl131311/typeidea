@@ -44,6 +44,9 @@ class Tag(models.Model):
     class Mete:
         verbose_name = verbose_name_plural = '标签'
 
+    def __str__(self):
+        return self.name
+
 class Post(models.Model):
     STATUS_NORMAL = 1
     STATUS_DELETE = 0
